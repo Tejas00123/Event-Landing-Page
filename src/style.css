@@ -1,0 +1,43 @@
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.logo-image{
+    object-fit: cover;
+    height: 36px;
+    width: 36px;
+}
+
+a{
+    font-size: 25px;
+}
+
+#navbarTogglerDemo02 a{
+    
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+main img{
+
+    background-size: cover;
+}
+
+
+
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.banner {
+    height: 650px;
+    width: 99vw;
+    position: relative; /* Ensure the container is relative for absolute positioning of text */
+}
